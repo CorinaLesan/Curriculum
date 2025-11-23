@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    z-index: 1;
 }
 
 body {
@@ -14,40 +13,48 @@ body {
     min-height: 120vh;
 }
 
-.resume {
+.resume-left {
     display: flex;
     width: 900px;
     background: #fff;
+    margin-top: -55px;
+    margin-left: -10px;
 }
 
-.left {
+.left-side {
     background: linear-gradient(135deg, #da6720 0%, #ebd96b 100%);
     color: #fff;
     width: 600px;
     padding: 95px;
     position: absolute;
-    height: 1290px;
-    margin-left: -260px;
-    margin-top: -550px;
+    height: 1350px;
+    margin-left: -50px;
+    margin-top: -525px;
     border-radius: 20px;
-}
-
-.profile-pic {
-    width: 250px;
-    height: 250px;
-    background: #fff;
-    border-radius: 50%;
-    margin: 0 auto 40px auto;
-    margin-left: 100px;
-    margin-top: -50px;
-    position: absolute;
-    z-index: 3; /*#команда которая ставит круг выше но без "position absolute" работать не будет*/
 }
 
 .photo {
     width: 295px;
-    margin-left: -22px;
-    margin-top: -19px;
+    margin-left: -775px;
+    margin-top: -530px;
+    position: absolute;
+    background: #ffffff;
+    border-radius: 600px;
+    z-index: 15;
+}
+
+.personal-info {
+    font-weight: bold;
+    font-size: 30px;
+    align-items: center;
+    margin-left: 50px;
+    color: #000;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 5px 2px rgba(240, 234, 234, 0.1);
+    background-color: #ffffff;
+    margin-top: 250px;
+    margin-bottom: 20px;
 }
 
 .contact-info {
@@ -59,104 +66,41 @@ body {
 .contact-info ul {
     list-style: none;
     font-size: 16px;
-    line-height: 1.8;
+    line-height: 2;
     margin-top: 20px;
 }
 
-.section {
-    margin-bottom: 30px;
+.information {
+    margin-left: -820px;
+    margin-top: 820px;
+    position: absolute;
 }
 
-.section h2 {
+.information h2 {
     font-size: 17px;
     letter-spacing: 1px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 20px;
     color: #000000;
+    position: abo;
 }
 
-.section hr {
+.information hr {
     border: 0;
     border-top: 1px solid #fff;
     width: 80%;
     margin-bottom: 10px;
 }
 
-.section p,
-.section ul {
+.information p,
+.information ul {
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.8;
+    color: white;
 }
 
-.section ul {
+.information ul {
     list-style: none;
-}
-
-.right {
-    width: 900px;
-    padding: 30px 40px;
-    position: absolute;
-    margin-left: 550px;
-    margin-top: -1030px;
-}
-
-.banner {
-    position: absolute;
-    top: -170px;
-    left: -350px;
-    width: 1200px;
-    height: 190px;
-    background: linear-gradient(135deg, #fffdfd 0%, #ebd96b 100%);
-    border-top-left-radius: 20px;
-    z-index: 1;
-    border-radius: 60px;
-}
-
-.content {
-    position: absolute;
-    z-index: 1;
-    margin-top: 130px;
-    width: 560px;
-}
-
-.content h2 {
-    color: #000;
-    font-size: 56px;
-    margin-bottom: 5px;
-    z-index: 2;
-}
-
-.exp {
-    margin-top: 120px;
-    width: 900px;
-}
-
-.ref {
-    margin-top: 60px;
-}
-
-.h2name {
-    margin-top: -275px;
-    margin-left: 130px;
-}
-
-.content hr {
-    border: 0;
-    border-top: 1px solid #000;
-    margin-bottom: 10px;
-    width: 400px;
-    z-index: 2;
-}
-
-.worki {
-    font-size: 20px;
-}
-
-.content p {
-    font-size: 14px;
-    color: #333;
-    margin-bottom: 25px;
-    line-height: 1.6;
-    z-index: 2;
 }
 
 .dots1 {
@@ -182,59 +126,78 @@ body {
     margin-top: -13px;
 }
 
-.language {
-    margin-bottom: 30px;
+.content {
+    position: absolute;
+    top: 70px;
+    right: 50px;
+    width: 1300px;
+    height: 200px;
+    background: linear-gradient(135deg, #fffdfd 0%, #ebd96b 100%);
+    border-top-left-radius: 20px;
+    z-index: 2;
+    border-radius: 60px;
 }
 
-.language h2 {
-    font-size: 17px;
-    letter-spacing: 1px;
-    margin-bottom: 5px;
+.name h2 {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 56px;
+    font-family: 'Poppins', sans-serif;
 }
 
-.language hr {
-    border: 0;
-    border-top: 1px solid #fff;
-    width: 80%;
-    margin-bottom: 10px;
+.text p {
+    margin-left: -300px;
+    font-size: 20px;
+    line-height: 2.5em;
+    width: 750px;
 }
 
-.language p,
-.language ul {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-top: 7px;
+.text h2 {
+    margin-left: -300px;
+    top: 360px;
+    font-size: 56px;
+    position: absolute;
 }
 
-.perinf {
-    font-weight: bold;
-    font-size: 30px;
-    align-items: center;
-    margin-left: 50px;
-    color: #000;
-    border-radius: 15px;
-    padding: 15px;
-    box-shadow: 0 5px 2px rgba(240, 234, 234, 0.1);
-    background-color: #ffffff;
+.text hr {
+    margin-left: -300px;
+    width: 700px;
+    margin-top: 160px;
+}
+
+.hobbies {
+    position: absolute;
+    margin-top: 990px;
+    margin-right: -440px;
+}
+
+.hobbies h2 {
+    font-size: 56px;
 }
 
 .hobby-card {
+    margin-top: 60px;
     border-radius: 15px;
     padding: 11px;
     text-align: center;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 600px;
+}
+
+.hobby-card:hover {
+    background: linear-gradient(135deg, #eea113 30%, #ffd900 50%);
 }
 
 .footer {
     background-color: #000000;
     padding: 40px 0;
-    width: 1907px;
-    margin-left: -340px;
-    margin-top: 100px;
-    position: relative;
+    width: 1905px;
+    margin-left: 0px;
+    margin-top: 1900px;
+    position: absolute;
     left: 0;
     right: 0;
-    background: linear-gradient(135deg, #000000 0%, #000000 100%);
+    background-color: #000;
     border-radius: 15px;
 }
 
