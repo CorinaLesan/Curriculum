@@ -14,7 +14,6 @@ body {
 }
 
 .resume-left {
-    display: flex;
     width: 900px;
     background: #fff;
     margin-top: -55px;
@@ -58,7 +57,6 @@ body {
 }
 
 .contact-info {
-    margin-bottom: 20px;
     margin-top: 240px;
     font-family: 'Poppins', sans-serif;
 }
@@ -98,10 +96,6 @@ body {
     color: white;
 }
 
-.information ul {
-    list-style: none;
-}
-
 .dots1 {
     display: flex;
     gap: 7px;
@@ -132,7 +126,6 @@ body {
     width: 1300px;
     height: 200px;
     background: linear-gradient(135deg, #fffdfd 0%, #ebd96b 100%);
-    border-top-left-radius: 20px;
     z-index: 2;
     border-radius: 60px;
 }
@@ -149,6 +142,7 @@ body {
     font-size: 20px;
     line-height: 2.5em;
     width: 750px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .text h2 {
@@ -156,6 +150,7 @@ body {
     top: 360px;
     font-size: 56px;
     position: absolute;
+    font-family: 'Poppins', sans-serif;
 }
 
 .text hr {
